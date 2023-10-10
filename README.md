@@ -6,9 +6,9 @@ It also has users who can see all movies and add movies or delete movies own mov
 
 ## Run through Docker
 1. Navigate to the folder where the Dockerfile is through the terminal 
-2. Run: docker build -t <your-image-name>:<optional-tag> . (with the dot)
-3. Run:  docker run -it -p <port-of-your-choise>:5000 -v "$(pwd)/flaskMoviesApp/flask_movies_database.db:/usr/src/app/flaskMoviesApp/flask_movies_database.db" <your-image-name>:<optional-tag>
-4. Go to browser and use the addresse localhost:<port-of-your-choise>
+2. Run: docker build -t \<your-image-name\>:\<optional-tag\> . (with the dot)
+3. Run:  docker run -it -p \<port-of-your-choise\>:5000 -v "$(pwd)/flaskMoviesApp/flask_movies_database.db:/usr/src/app/flaskMoviesApp/flask_movies_database.db" \<your-image-name\>:\<optional-tag\>
+4. Go to browser and use the addresse localhost:\<port-of-your-choise\>
 
 ## Run in local Virtual Enviroment
 1. Create virtual enviroment with: python -m virtualenv <name of your choise>
