@@ -2,7 +2,7 @@
 Project for the Mathesis Flask Course
 
 This Project is a mini Blog with movies, their pictures, description and grade.
-It also has users who can see all movies and add movies or delete movies own movies.
+It also has users who can see all movies and add movies or delete own movies.
 
 ## Run through Docker
 1. Navigate to the folder where the Dockerfile is through the terminal 
